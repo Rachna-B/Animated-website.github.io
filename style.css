@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 90vh;
+  }
+  
+.carousel-caption h3{
+	font-size:2rem;
+	font-style:italic;
+}
+  
+.about-img{
+	width:100%;
+	height:250px!important;
+}
+
+/*****animation******/
+
+.about-part1, .about-part2, .card-part1, .card-part2, .card-part3, .gallery{
+	opacity:0;
+}
+
+.about-part1.animated, .about-part2.animated, .card-part1.animated, .card-part2.animated, .card-part3.animated, .gallery.animated{
+	opacity:1;
+}
